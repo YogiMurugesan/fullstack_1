@@ -4,32 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h2{
+                    color: blue;
+                    text-align: center;
+                }
+                .log{
+                    width: 400px;
+                    height: 500px;
+                    border: 1px solid gray;
+                    font-family: sans-serif;
+                    border-radius: 10px;
+                    display: inline-block;
+                    margin: 80px;
+                    margin-left: 500px;
+                    margin-top: 100px;
+                    text-align: center;
+                    box-shadow: 10px 10px 10px lightblue;
+                    }
+                    .col{
+                        background-color: blue;
+                        height: 35px;
+                        width: 60px;
+                        border-radius: 10px;
+                    }
+                    a:hover{
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
+            </style>
 </head>
-<body>
-    <h1 align="center">AC ROOM BOOKING</h1>
-    <table align="center"cellpadding="10">
-        
-        <tr>
-        <td><b>Name</b></td>
-        <td><input type="text" name="Name"maxlength="30"/></td>
-        </tr>
-        <tr>
-            <td><b>Department</b></td>
-            <td><input type="text" name="Name"maxlength="30"/></td>
-            </tr>
-            <tr>
-                <td><b>Email</b></td>
-                <td><input type="text" name="Name"maxlength="30"/></td>
-                </tr>
-                <tr>
-                <td><b>Password</b></td>
-                <td><input type="text" name="Name"maxlength="30"/></td>
-                </tr>
-                <tr>
-                    <td><b>Email</b></td>
-                    <td><input type="text" name="Name"maxlength="30"/></td>
-                    </tr>
-                    <tr>
+<div class="log">
+
+    <br><h2>AC ROOM BOOKING</h2></br>
+    <br action="/signup" method="post">
+    <input type="text" name="name" placeholder="Name"></br></br>
+    <input type="text" name="department" placeholder="Department"></br></br>
+    <input type="text" name="email" placeholder="Email"></br></br>
+    <input type="password" name="password" placeholder="password"></br></br>
+    <input type="text" name="phone no" placeholder="Phone No"></br></br>
+    <input type="text" name=" gender" placeholder=" Gender"></br></br></br>
+    <input type="submit" class="col">
+    </form>
+
+</div>                      
         
 </body>
 </html>
